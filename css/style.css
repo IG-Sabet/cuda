@@ -1,0 +1,422 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+.continer{
+	width: 1140px;
+	margin: 0 auto;
+}
+/* header section */
+header{
+	width: 100%;
+	float: left;
+}
+.head-logo{
+	padding: 16px 8px;
+}
+/* Banner Section */
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/10.jpg)no-repeat;
+	background-size: cover;
+}
+.banner-title{
+	width: 100%;
+	float: left;
+	padding: 180px 0px 0px;
+}
+.banner-title h1{
+	color: white;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 700;
+}
+.banner-title span{
+	border-bottom: 3px solid;
+    color: #4886AB;
+    width: 86%;
+    display: block;
+    margin: 0 auto;
+}
+.banner-title p{
+	color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 23px 0px 50px;
+    font-weight: 300;
+}
+.bnr-btn{
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    padding: 15px 30px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+.bnr-btn:hover{
+    color: #15a4fa;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.banner-title i{
+	width: 10px;
+    display: block;
+}
+.fa.fa-chevron-down{
+    margin: 200px 500px 90px 552px;
+    font-size: 45px;
+    color: white;
+    cursor: pointer;
+}
+.fa.fa-chevron-down:hover{
+    cursor: pointer;
+    color: #15a4fa;
+}
+
+/* About section */
+
+.about{
+	width: 100%;
+	float: left;
+	padding: 59px 0px;
+	background: #F6F9F9;
+}
+.about-title{
+	width: 100%;
+	float: left;
+}
+.about-title h2{
+	text-align: center;
+    color: #2D3950;
+    text-transform: capitalize;
+    font-size: 49px;
+    padding: 32px 0px;
+    font-weight: 400;
+}
+.about-title p{
+	text-align: center;
+    color: #ACACAC;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+/* Service section */
+
+.service{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+}
+.service-one{
+	width: 33.33%;
+	float: left;
+}
+
+.service-one h3{
+	text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.service-one p{
+	text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+.service-two{
+	width: 33.33%;
+	float: left;
+}
+
+.service-two h3{
+	text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.service-two p{
+	text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 0px;
+}
+.service-three{
+	width: 33.33%;
+	float: left;
+}
+
+.service-three h3{
+	text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.service-three p{
+	text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 5px 0px; 
+}
+.icon-one{
+	width: 80px;
+    height: 80px;
+    background: #48baff;
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+}
+.icon-one::after {
+	content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #ffff;
+    left: 40px;
+    opacity: 0.4;
+}
+.icon-two{
+	width: 80px;
+    height: 80px;
+    background: #48BAFF;
+    font-size: 55px;
+    line-height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.icon-two::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: white;
+	opacity: 0.4;
+	left: 42px;
+}
+.icon-three{
+	width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: #48BAFF;
+    color: #fff;
+    line-height: 85px;
+    font-size: 69px;
+    text-align: center;
+    position: relative;
+}
+.icon-three::after {
+	content: "";
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    left: 43px;
+    opacity: 0.4;
+}
+
+/* portfolio section  */
+
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 30px 0px 70px;
+}
+.port-title{
+	width: 100%;
+	float: left;
+}
+.port-title h4{
+	text-align: center;
+    font-size: 33px;
+    font-weight: 500;
+    padding: 30px 0px 10px
+}
+.port-title p{
+	text-align: center;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 10px 0px 29px
+}
+.port-one{
+	width: 33%;
+	float: left;
+}
+.port-two{
+	width: 33%;
+	float: left;
+}
+.port-three{
+	width: 33%;
+	float: left;
+}
+.port-four{
+	width: 33%;
+	float: left;
+}
+.port-five{
+	width: 33%;
+	float: left;
+}
+.port-six{
+	width: 33%;
+	float: left;
+}
+
+/* Input section */
+
+.input{
+    width: 100%;
+    float: left;
+    padding: 27px 0px;
+    background: url(../img/bg1.jpg);
+}
+
+.input-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input-text h2{
+    color:white;
+    font-size: 40px;
+    padding: 15px 0px;
+    word-spacing: 2px;
+    margin-top: 20px;
+}
+
+.input-text p {
+    font-size: 15px;
+    color: #999999;
+    word-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.contact-form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 95%;
+    padding: 15px 6px;
+    background: transparent;
+    border: 1px solid #9999;
+    margin: 9px 0px;
+}
+
+textarea {
+    width: 95%;
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid #999999;
+    padding: 10px 7px;
+}
+
+.contact-2{
+    width: 100%;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.contact-2-right{
+    width: 40%;
+    float: right;
+}
+
+.contact-2-right button {
+    color: white;
+    background: none;
+    border: 1px solid #15a4fa;
+    padding: 7px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 11px;
+}
+
+.contact-2-left {
+    width: 20%;
+    float: left;
+    margin-left: 341px;
+    margin-top: 22px;
+    color: white;
+}
+
+.sub{
+    padding: 0px 8px;   
+}
+
+/* Footer section */
+
+footer {
+    width: 100%;
+    float: left;
+    padding: 22px 0px;
+}
+
+.f-left{
+    width: 40%;
+    float: left;
+}
+
+.f-left p {
+    font-size: 15px;
+    color: #999999;
+    margin-top: 15px;
+}
+
+.f-right {
+    width: 23%;
+    float: right;
+}
+
+.f-right ul{
+    list-style: none;
+}
+
+.f-right ul li{
+    display: inline-block;
+}
+
+.fab.fa-facebook-f {
+    background: #15a4fa;
+    padding: 12px 14px;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.fab.fa-twitter{
+    background: #15a4fa;
+    padding: 12px 14px;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.fab.fa-linkedin-in{
+    background: #15a4fa;
+    padding: 12px 14px;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.fab.fa-google-plus-g{
+    background: #15a4fa;
+    padding: 12px 14px;
+    color: white;
+    border-radius: 2px;
+    font-size: 14px;
+}
